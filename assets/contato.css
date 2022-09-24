@@ -1,0 +1,104 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background: #dcdcdc;
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0px 0px 0px 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    
+}
+
+nav a:hover {
+    color: #C78C19;
+    text-decoration: none;
+}
+
+form {
+    margin: 50px 50px 10px 20px;
+}
+
+.titulo-contato {
+    padding-top: 15px;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 20px 0px 25px 10px;
+}
+
+.input-padrao, formtextarea {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0px;
+}
+
+.enviar {
+    width: 40%;
+    padding:15px 0px;
+    background: #ffaa0bea; 
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: #e49217dc;
+    transform: scale(1.1);
+}
+
+table {
+    margin: 30px 0px 30px;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 20px;
+}
+
+footer {
+    text-align: center;
+    background-image: url("./imagens/bg.jpg");
+    padding: 40px;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0px 0px;
+}
+
